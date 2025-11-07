@@ -1,4 +1,4 @@
-# ZAP Action Full Scan
+# ZAP Action Full Scan - edited
 
 A GitHub Action for running the ZAP [Full Scan](https://www.zaproxy.org/docs/docker/full-scan/) to perform
 Dynamic Application Security Testing (DAST). 
