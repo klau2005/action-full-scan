@@ -19,11 +19,9 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
 
-    - run: sudo apt-get update && sudo apt-get install -y nginx && sudo systemctl start nginx
-
     - name: ZAP Scan
       uses: ./
       id: action-full-scan
       with:
-        target: 'http://localhost'
+        target: 'https://google-gruyere.appspot.com/430636331223676360418795753798261692380/'
         allow_issue_writing: false
