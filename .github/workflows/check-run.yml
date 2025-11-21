@@ -23,5 +23,5 @@ jobs:
       uses: ./
       id: action-full-scan
       with:
-        target: 'https://google-gruyere.appspot.com/643381732845760668651772690991859721406/'
+        target: 'http://zero.webappsecurity.com/'
         allow_issue_writing: false
